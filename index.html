@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/it.css">
+    <title>It-SPK</title>
+</head>
+
+<body>
+    <!-- Прелоадер -->
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
+    <div class="wrapper">
+        <p>Слишком мелкий экран :(</p>
+        <header class="header">
+            <div class="header__container _content">
+                <div class="header-logo">
+                    <img class="header-logo__img" src="img/logotipy-1.svg" alt="">
+                    <form action="#">
+                        <select name="region" id="reg-select" class="region">
+                        <option class = "rus" value="RU">RU</option>
+                        <option class = "usa" value="UA">UA</option>
+                    </select>
+                    </form>
+
+                </div>
+                <div id="headburger" class="header-burger burger">
+                    <div class="burger-icon">
+                        <span></span>
+                    </div>
+                    <nav class="head">
+                        <!-- <ul class="head-list">
+                            <li id='firstli' class="head-list__li">О нас</li>
+                            <li class="head-list__li">Услуги</li>
+                            <li class="head-list__li">Адрес</li>
+                        </ul> -->
+                        <ul class="head-list">
+                            <li id='firstli'>
+                                <a data-goto=".AboutUs" href="" class="head-list__li">О нас</a> </li>
+                            <li>
+                                <a data-goto=".Services" href="" class="head-list__li">Услуги</a></li>
+                            <li>
+                                <a data-goto=".adress" href="" class="head-list__li">Адрес</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="contct" class="contact">
+                    <div class="contact-column">
+                        <a href="tel:+79380003066" class="lifecell"><span>Телефон</span>+7(938)000-30-66</a>
+                        <!-- <p class="Vodafone"><span>Vodafone</span>+380 99 311 29 79</p> -->
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="SiteBody">
+            <section class="page">
+                <div class="container">
+                    <div class="main ">
+                        <div class="mBody">
+                            <h1 class="mBody__title">Сайт отдела технических работ и системного администрирования ЧГПУ</h1>
+                            <div class="mBody__subtitle">Обслуживание компьютеров в ЧГПУ на Олимпийском</div>
+                            <!-- <div class="mBody-info">
+                            <p class="mBody-info__text">От <span>315<b>грн</b></span>/мес</p>
+                            <p class="mBody-info__subtext">за 1 рабочее место</p>
+                        </div> -->
+                            <div class="application">
+                                <button>Отправить заявку<img src="img/Vector 1.svg" alt=""></button>
+                            </div>
+                        </div>
+                        <div class="main-info">
+                            Обслуживание распространяется только на факультеты Чеченского Государственного Педагогического Университета, которые находятся на Олимпийском проезде!
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="AboutUs">
+                <div class="container">
+                    <div class="AboutBody">
+                        <h2 class="AboutTitle description">
+                            О нас
+                        </h2>
+                        <div class="AboutInfo info">
+                            Отдел технической поддержки и системного администрирования является структурным подразделением управления информационных технологий. мы выполняем планирование, проектирование, разработку и ввод в эксплуатацию автоматизированных рабочих мест сотрудников
+                            университета.
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Services">
+                <div class="container">
+                    <div class="ServicesBody">
+                        <h2 class="ServicesTitle description">
+                            Услуги
+                        </h2>
+                        <div class="ServicesInfoBody info">
+                            <div class="servItems__item item-1">
+                                <div class="item__img">
+                                    <img src="img/items/Group 70.svg" alt="">
+                                </div>
+                                <div class="item__text">
+                                    Обслуживание компьютеров
+                                </div>
+                            </div>
+                            <div class="servItems__item item-2">
+                                <div class="item__img">
+                                    <img src="img/items/Group 72.svg" alt="">
+                                </div>
+                                <div class="item__text">
+                                    Обслуживание серверов
+                                </div>
+                            </div>
+                            <div class="servItems__item item-3">
+                                <div class="item__img">
+                                    <img src="img/items/Group 74.svg" alt="">
+                                </div>
+                                <div class="item__text">
+                                    Виртуализация 1С
+                                </div>
+                            </div>
+                            <div class="servItems__item item-4">
+                                <div class="item__img">
+                                    <img src="img/items/Group 71.svg" alt="">
+                                </div>
+                                <div class="item__text">
+                                    Аудит ИТ-инфраструктуры и проектирование
+                                </div>
+                            </div>
+                            <div class="servItems__item item-5">
+                                <div class="item__img">
+                                    <img src="img/items/Group 73.svg" alt="">
+                                </div>
+                                <div class="item__text">
+                                    Резервное копирование
+                                </div>
+                            </div>
+                            <div class="servItems__item item-6">
+                                <div class="item__img">
+                                    <img src="img/items/Group 75.svg" alt="">
+                                </div>
+                                <div class="item__text">
+                                    Переезд ИТ инфраструктуры
+                                </div>
+                            </div>
+                        </div>
+                        <h3 class="Task">Основными задачами отдела являются обеспечение надлежащего технического и программного функционирования телекоммуникационного, мультимедийного, компьютерного оборудования университета, создания новых автоматизированных рабочих
+                            мест сотрудников, оснащение аудиторий, модернизация действующего парка оборудования.</h3>
+
+                        <div class="application">
+                            <button>Отправить заявку<img src="img/Vector 1.svg" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="adress">
+                <div class="container">
+                    <h2 class="adressTitle description">
+                        Наш адрес
+                    </h2>
+                    <div class="adressBody">
+                        <div class="adressBody__map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1451.2262763157723!2d45.713298175113934!3d43.32571830756429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4051d144d74d13bb%3A0x65296723888e1e8b!2z0KfQtdGH0LXQvdGB0LrQuNC5INCz0L7RgdGD0LTQsNGA0YHRgtCy0LXQvdC90YvQuSDQv9C10LTQsNCz0L7Qs9C40YfQtdGB0LrQuNC5INGD0L3QuNCy0LXRgNGB0LjRgtC10YIsINCn0JPQn9Cj!5e0!3m2!1sru!2sru!4v1638032645084!5m2!1sru!2sru"
+                                style="border: 4px solid #004221;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <div class="adressBody__info adressInfo">
+                            <div class="adressInfo-list">
+                                <div class="adressInfo-list__li">
+                                    <img src="img/icons/mobilephone_79875.svg" alt="">
+                                    <a href="tel:+78712212069" class="adressInfo-list__li">+7(938)000-30-66</a></div>
+                                <div class="adressInfo-list__li">
+                                    <img src="img/icons/mail-black-envelope-symbol_icon-icons.com_56519.svg" alt="">
+                                    <a href="mailto:aku@chspu.ru" class="adressInfo-list__li">mdga94@mail.ru</a></div>
+                                <div class="adressInfo-list__li">
+                                    <img src="img/icons/pin_gps_.svg" alt="">
+                                    <p class="adressInfo-list__li">г. Грозный, ул. Субры Кишиевой, 33</p>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="request">
+                <div class="container">
+                    <div class="request-body">
+                        <h2 class="request-title">
+                            Оставьте заявку на обслуживание компьютеров и мы свяжемся с вами
+                        </h2>
+                        <div class="request-form">
+                            <form action="#" class="contact-form" id="FormID">
+                                <div class="contact-form__item"> <input class="_req _name" type="text" placeholder="Ваше Имя*" autocomplete="off"></div>
+                                <div class="contact-form__item"><input id="phone" class="_req _phone" type="tel" placeholder="Ваш номер телефона*" autocomplete="off"></div>
+                                <div class="contact-form__item"><input type="mail" placeholder="Ваш e-mail" autocomplete="off"></div>
+                                <div class="contact-form__item"><textarea name="message" id="message" cols="30" rows="10" placeholder="Текст сообщения"></textarea></div>
+                                <div class="contact-form__file">
+                                    <input id="file" type="file" accept=".jpg, .png, .gif">
+                                    <label for="file" class="file"><img src="img/icons/Attach_icon-icons.com_55962.svg" alt=""><span>Прикрепить файл</span></label>
+                                    <div class="file-preview"></div>
+                                </div>
+                                <div class="contact-form__checkbox">
+                                    <input type="checkbox" id="agree" class="_req">
+                                    <label for="agree" class="agreement"><span>Я даю согласие на обработку персональных данных</span></label>
+                                </div>
+                                <div class="contact-form__button">
+                                    <button type="submit">Отправить<img src="img/Vector 1.svg" alt=""></button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+
+        </footer>
+
+    </div>
+    <div class="popup" id="popup">
+        <div class="popup-body">
+            <div class="popup-content">
+                <a href="##" class="popup-clos"></a>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/it.js"></script>
+</body>
+
+</html>
